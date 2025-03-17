@@ -1,0 +1,127 @@
+.header-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  flex-direction: row-reverse;
+  width: 100%;
+  background-color: var(--base-color);
+  padding-bottom: 1rem;
+}
+.header-logo {
+  width: 50px;
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row-reverse;
+}
+
+.login,
+.search {
+  background-color: transparent;
+  color: var(--text-on-theme-primary);
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.login:hover,
+.search:hover {
+  transition: ease-in 200ms;
+  color: var(--text-on-base-color);
+}
+
+.persian-style,
+.english-style {
+  background-color: transparent;
+  color: var(--text-on-theme-primary);
+  padding: 5px;
+  border: 0px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.persian-style:hover,
+.english-style:hover {
+  transition: ease-in 200ms;
+  color: var(--text-on-base-color);
+}
+
+.english-style::after {
+  background: #bbbbbb;
+  content: "";
+  display: inline-block;
+  height: 0.7857142857rem;
+  margin-right: 0;
+  margin-left: 7px;
+  position: relative;
+  top: 1px;
+  width: 1px;
+}
+
+.language {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.menu-container {
+  width: 100%;
+}
+.hamburger-menu {
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  color: var(--campaign-text);
+  display: none;
+}
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  box-shadow: 2px 0 10px rgba(255, 253, 253, 0.1);
+  transition: left 0.5s ease-in-out;
+  z-index: 100;
+}
+
+.mobile-menu-container.open {
+  left: 0;
+  
+}
+/* ////////////////////////////// */
+@media (max-width: 406px) {
+  .login-container {
+    display: none;
+  }
+  .hamburger-menu {
+    display: flex;
+    margin-left: 7rem;
+  }
+}

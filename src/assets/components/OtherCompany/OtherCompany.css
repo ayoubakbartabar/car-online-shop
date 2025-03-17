@@ -1,0 +1,48 @@
+.other-company-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--top-product-bg);
+  padding: 5rem 10px;
+}
+.company-image {
+    width: 8em;
+}
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  width: 80%;
+}
+
+.company-box {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.company-image {
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .company-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .company-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

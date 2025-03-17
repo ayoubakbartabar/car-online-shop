@@ -1,0 +1,39 @@
+.nav-bar-container {
+  background-color: var(--navbar-bg);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.menu-list-container {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+  padding: 10px;
+}
+.menu-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 400ms ease-in;
+  display: inline-block;
+}
+
+.menu-link.hovered {
+  transform: scale(1.6);
+  color: var(--text-color);
+}
+
+.menu-link.dimmed {
+  color: var(--hover-on-base-color);
+}

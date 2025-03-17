@@ -1,0 +1,39 @@
+:root{
+    --theme-primary: #ffc400;
+    --navbar-bg: #fffbfb;
+    --top-product-bg: #ffffff;
+    --text-on-theme-primary: rgba(255, 255, 255 , 0.5);
+    --hover-on-theme-primary: #bbbbbb;
+    --theme-active: #014880;
+    --theme-disabled: #80c6ff;
+    --base-color: #000000;
+    --text-on-base-color: #ffffff;
+    --link-on-base-color:  #9f9f9f;;
+    --hover-on-base-color: #9f9f9f;;
+    --bg-on-base-color: #444343;
+    --campaign-primary:#000000;;
+    --campaign-light: #ffffff;
+    --campaign-text: #ffffff;
+    --text-color: #000000;
+    --campaign-gradient-bottom-text:#ffffff;
+    --button-theme-color: #0078d6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--base-color);
+
+}
+/* #root{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+} */

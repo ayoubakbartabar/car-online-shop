@@ -1,0 +1,40 @@
+.social-media-container {
+  padding: 5rem 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-title {
+  color: var(--text-on-base-color);
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 2rem;
+}
+.social-media-icon-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, 6fr));
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 10px;
+  justify-items: center;
+}
+
+.social-media-svg {
+  cursor: pointer;
+  width: 8em;
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.social-media-svg:hover {
+  transform: scale(1.1); 
+}
+

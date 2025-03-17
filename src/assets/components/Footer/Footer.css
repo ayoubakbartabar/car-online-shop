@@ -1,0 +1,25 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  align-items: center;
+}
+.information-container,
+.my-account-container,
+.store-info-container {
+}
+.information-title,
+.my-account-title,
+.store-info-title {
+  color: var(--theme-primary);
+}
+.information-list-container,
+.my-account-list-container,
+.store-info-list-container {
+  list-style: none;
+}
+.information-list,
+.my-account-list,
+.store-info-list {
+  color: var(--campaign-text);
+}

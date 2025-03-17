@@ -1,0 +1,71 @@
+.discount-container {
+  position: relative;
+  background: #f5f5f5;
+  padding: 4rem;
+  z-index: 1;
+  text-align: center;
+  background-color: var(--theme-primary);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.discount-details-container {
+  padding-left: 5%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.discount-title {
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-align: start;
+}
+
+.discount-paragraph {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: start;
+}
+.discount-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(40%, -48%) scale(1.5);
+  z-index: 3;
+  width: 20%;
+}
+.discount-image-max-width-750{
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .discount-container {
+      flex-direction: column; 
+      text-align: center;
+      position: static; 
+    }
+    .discount-details-container {
+      align-items: center;
+      text-align: center;
+      padding-left: 0;
+    }
+    .discount-title,
+    .discount-paragraph {
+      text-align: center;
+    }
+    .discount-image {
+      display: none;
+    }
+    .discount-image-max-width-750{
+        display: flex;
+        width: 50%;
+        margin-top: 5rem;
+    }
+  }

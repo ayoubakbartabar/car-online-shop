@@ -1,0 +1,47 @@
+.About-compony-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 17rem 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.About-compony-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/public/image/About-Compony-bg-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.About-compony-container div {
+  position: relative;
+  z-index: 1;
+}
+
+.About-compony-svg-container {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(75%) sepia(89%) saturate(350%)
+    hue-rotate(-15deg);
+}
+
+.About-compony-title {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-top: 10px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,103 @@
+.top-product-container {
+  background-color: var(--top-product-bg);
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 3rem 10px;
+}
+.top-product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.top-product-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding-left: 0.7rem;
+  background-image: linear-gradient(90deg, #ffc107, #ffee58);
+  background-repeat: no-repeat;
+  background-size: 3%;
+  text-transform: capitalize;
+}
+.top-product-title {
+  font-size: 2rem;
+}
+
+.top-product-paragraph {
+  font-size: 1rem;
+}
+.top-product-filter-product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.filtered-btn {
+  background-color: transparent;
+  padding: 0.3rem;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 0;
+}
+.active {
+  color: var(--theme-primary);
+  border-bottom: 3px solid;
+}
+
+.products-container {
+  padding: 1rem 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.product-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.product-box-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.pagination-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+.toggle-btn {
+  gap: 1rem;
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}

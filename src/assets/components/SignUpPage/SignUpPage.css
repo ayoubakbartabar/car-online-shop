@@ -1,0 +1,105 @@
+.signup-page-container {
+  width: 70%;
+  height: 80vh;
+  background-color: var(--text-on-theme-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.signup-page-background-image {
+  background-image: url(public/image/signup-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 49%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.back-button {
+  padding: 1rem;
+  text-decoration: none;
+  display: flex;
+  gap: 0.5rem;
+  color: var(--campaign-text);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+.signup-page-inputs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.signup-page-inputs-title {
+  color: var(--campaign-text);
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.signup-page-inputs-paragraph {
+  color: var(--campaign-text);
+  text-transform: capitalize;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: left;
+}
+.signup-page-inputs-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: 100%;
+  max-width: 490px;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+.signup-page-inputs-content input {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: var(--text-on-theme-primary);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkbox-text {
+  font-size: 14px;
+}
+.create-account-button{
+  background-color: var(--button-theme-color);
+  border: 0;
+  padding: 1rem 10rem;
+  border-radius: 10px;
+  color: var(--campaign-text);
+  text-transform: capitalize;
+  cursor: pointer;
+}
