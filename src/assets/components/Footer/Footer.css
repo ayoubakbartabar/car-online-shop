@@ -12,6 +12,7 @@
 .my-account-title,
 .store-info-title {
   color: var(--theme-primary);
+  margin-top: 2rem;
 }
 .information-list-container,
 .my-account-list-container,
@@ -21,5 +22,16 @@
 .information-list,
 .my-account-list,
 .store-info-list {
+  display: flex;
   color: var(--campaign-text);
+  padding: 0.4rem;
+  margin-top: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.my-account-list-link,
+.store-info-list-link {
+  color: var(--text-on-base-color);
+  text-decoration: none;
 }
