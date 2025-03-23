@@ -14,7 +14,7 @@ export default function SignUp() {
         transition={{ duration: 1.2, ease: "easeOut" }} // timing
       >
         <h2 className="signup-title">be part of our story</h2>
-        <p className="signup-paragraph">join the new mercedes-benz community</p>
+        <p className="signup-paragraph">join the new car yard</p>
         <Link to="/signup-page" className="signup-btn">
           sign up <FaChevronRight />
         </Link>
