@@ -11,7 +11,7 @@ import { AiFillTikTok } from "react-icons/ai";
 export default function SocialMedia() {
   return (
     <section className="social-media-container">
-      <h2 className="social-media-title">Follow Mercedes-Benz</h2>
+      <h2 className="social-media-title">Follow Car Yard</h2>
       <div className="social-media-icon-container">
         <FaInstagram  className="social-media-svg"/>
         <FaFacebook className="social-media-svg" />
