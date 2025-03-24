@@ -14,11 +14,11 @@ I hope you enjoy your experience with it! 🚀
 
 ### **Technologies Used:**
 
-- ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) **HTML**
-- ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white) **CSS**
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript (JS)**
-- ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) **React**
-- ![NPM](https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white) **NPM**
+- ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+- ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+- ![NPM](https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
 
 ### 📬 **Contact Me:**
 
@@ -27,4 +27,3 @@ If you'd like to reach out, here’s how you can connect with me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayoub_Akbartabar-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ayoub-akbartabar-bb78b2212/)
 [![GitHub](https://img.shields.io/badge/GitHub-Ayoub_Akbartabar-black?style=for-the-badge&logo=github)](https://github.com/ayoubakbartabar)
 [![Email](https://img.shields.io/badge/Email-ayoubakbartabar%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:ayoubakbartabar1887@gmail.com)
-

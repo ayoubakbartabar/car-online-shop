@@ -14,7 +14,7 @@ export default function Owners() {
         <li className="owners-list">
           {" "}
           <a className="owners-list-link" href="#">
-            incontrol
+            in control
           </a>
         </li>
         <li className="owners-list">
