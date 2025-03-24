@@ -27,3 +27,4 @@ If you'd like to reach out, here’s how you can connect with me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayoub_Akbartabar-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ayoub-akbartabar-bb78b2212/)
 [![GitHub](https://img.shields.io/badge/GitHub-Ayoub_Akbartabar-black?style=for-the-badge&logo=github)](https://github.com/ayoubakbartabar)
 [![Email](https://img.shields.io/badge/Email-ayoubakbartabar%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:ayoubakbartabar1887@gmail.com)
+
