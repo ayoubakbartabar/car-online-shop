@@ -3,23 +3,22 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
   align-items: center;
+  margin: 1rem  0 3em 0;
 }
-.information-container,
-.my-account-container,
-.store-info-container {
-}
-.information-title,
+.owners-title,
 .my-account-title,
 .store-info-title {
   color: var(--theme-primary);
   margin-top: 2rem;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
 }
-.information-list-container,
+.owners-list-container,
 .my-account-list-container,
 .store-info-list-container {
   list-style: none;
 }
-.information-list,
+.owners-list,
 .my-account-list,
 .store-info-list {
   display: flex;
@@ -31,7 +30,9 @@
   gap: 0.5rem;
 }
 .my-account-list-link,
+.owners-list-link,
 .store-info-list-link {
   color: var(--text-on-base-color);
   text-decoration: none;
+  text-transform: capitalize;
 }
