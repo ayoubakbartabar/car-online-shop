@@ -27,6 +27,7 @@
 body {
   background-color: var(--base-color);
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 /* #root{
     scroll-snap-type: y mandatory;

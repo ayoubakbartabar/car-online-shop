@@ -5,6 +5,10 @@ import { FaAngleDown } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineMenu } from "react-icons/md";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
+import { MdAccountCircle } from "react-icons/md";
+import { FaBlog } from "react-icons/fa";
 
 export default function Header() {
   // set Hook
@@ -15,15 +19,34 @@ export default function Header() {
         <button onClick={() => setIsOpen(false)} className="close-btn">
           <IoCloseSharp />
         </button>
-        <ul>
-          <li>
-            <a href="#">Home</a>
+        <ul className="mobile-menu">
+          <li className="mobile-menu-list">
+            <Link
+              onClick={() => setIsOpen(false)}
+              className="mobile-menu-link"
+              to="/"
+            >
+              <FaHome /> Home
+            </Link>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li className="mobile-menu-list">
+            <Link
+              onClick={() => setIsOpen(false)}
+              className="mobile-menu-link"
+              id="mobile-menu-link-blog"
+              to="/blogs"
+            >
+              <FaBlog /> Blog
+            </Link>
           </li>
-          <li>
-            <a href="#">Contact</a>
+          <li className="mobile-menu-list">
+            <Link
+              onClick={() => setIsOpen(false)}
+              className="mobile-menu-link"
+              to="/about"
+            >
+              <MdAccountCircle /> About
+            </Link>
           </li>
         </ul>
       </div>
