@@ -98,15 +98,14 @@
   padding: 0 20px;
 }
 .toggle-btn {
- 
   gap: 1rem;
   padding: 10px;
   cursor: pointer;
   background-color: transparent;
   border: 0;
 }
-/* ////////////////// */
 
+/* ////////////////// */
 @media (max-width: 450px) {
   .top-product-header {
     display: flex;
