@@ -101,3 +101,14 @@
   background-color: transparent;
   border: 0;
 }
+/* /////////////////// */
+@media (max-width: 450px) {
+  .special-product-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 15px;
+  }
+}
