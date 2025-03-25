@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import Menu from "../Menu/Menu";
+import LoginHandler from './LoginHandler'
 import { FaAngleDown } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineMenu } from "react-icons/md";
@@ -53,9 +54,7 @@ export default function Header() {
       <div className="header-menu-container">
         <div className="header-container">
           <div className="login-container">
-            <button className="login">
-              <FaAngleDown /> Login
-            </button>
+            <LoginHandler/>
             <button className="search">
               <CiSearch /> Search
             </button>

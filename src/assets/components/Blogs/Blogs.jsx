@@ -6,7 +6,6 @@ export default function Blogs() {
   return (
     <>
       <Header/>
-
       <Footer/>
     </>
   )
