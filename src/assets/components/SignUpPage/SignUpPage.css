@@ -1,88 +1,133 @@
 .signup-page-container {
-  width: 70%;
-  height: 80vh;
+  width: 90%;
+  max-width: 1320px;
   background-color: var(--text-on-theme-primary);
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .signup-page-background-image {
   background-image: url(public/image/signup-background.jpg);
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  width: 49%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
 }
+
+.signup-page-background-logo {
+  width: 120px;
+}
+
 .back-button {
-  padding: 1rem;
-  text-decoration: none;
+  padding: 0.8rem 1.2rem;
   display: flex;
-  gap: 0.5rem;
-  color: var(--campaign-text);
+  align-items: center;
+  font-size: 1rem;
+  color: var(--base-color);
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
+  border-radius: 15px;
+  transition: background 0.3s ease-in-out;
+  justify-content: center;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .signup-page-inputs-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1.5rem;
+  width: 100%;
 }
+
 .signup-page-inputs-title {
   color: var(--campaign-text);
-  text-transform: capitalize;
+  font-size: 2rem;
   text-align: center;
-  font-size: 2.5rem;
+  text-transform: capitalize;
 }
+
 .signup-page-inputs-paragraph {
   color: var(--campaign-text);
-  text-transform: capitalize;
-  margin-top: 1rem;
   font-size: 1rem;
-  text-align: left;
+  text-align: center;
+  text-transform: capitalize;
 }
+
+.signup-page-inputs-paragraph a {
+  color: var(--theme-disabled);
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .signup-page-inputs-content {
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1.2rem;
   width: 100%;
-  max-width: 490px;
+  max-width: 470px;
 }
 
 .name-fields {
   display: flex;
-  gap: 10px;
+  gap: 12px;
+  width: 100%;
 }
 
 .name-fields input {
   flex: 1;
+  padding: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--text-on-theme-primary);
+  transition: border 0.3s ease-in-out;
+}
+
+.name-fields input:focus {
+  border-color: var(--button-theme-color);
+  outline: none;
 }
 
 .signup-page-inputs-content input {
   padding: 1rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 1rem;
   background-color: var(--text-on-theme-primary);
+  transition: border 0.3s ease-in-out;
+}
+
+.signup-page-inputs-content input:focus {
+  border-color: var(--button-theme-color);
+  outline: none;
 }
 
 .checkbox-container {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .checkbox-input {
@@ -94,12 +139,65 @@
 .checkbox-text {
   font-size: 14px;
 }
-.create-account-button{
+
+.checkbox-text a {
+  color: var(--theme-disabled);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.create-account-button {
   background-color: var(--button-theme-color);
   border: 0;
-  padding: 1rem 10rem;
+  padding: 1rem 4rem;
   border-radius: 10px;
   color: var(--campaign-text);
-  text-transform: capitalize;
   cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.create-account-button:hover {
+  background-color: var(--button-theme-hover);
+}
+
+@media (max-width: 768px) {
+  .signup-page-container {
+    grid-template-columns: 1fr;
+    width: 95%;
+    padding: 1.5rem;
+    position: static;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+  }
+
+  .signup-page-background-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .signup-page-inputs-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .signup-page-inputs-title {
+    font-size: 1.8rem;
+  }
+
+  .create-account-button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+
+  .name-fields {
+    flex-direction: column;
+    gap: 15px;
+  }
 }

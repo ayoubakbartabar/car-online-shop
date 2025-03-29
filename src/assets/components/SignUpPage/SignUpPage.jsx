@@ -50,6 +50,7 @@ export default function SignUpPage() {
     setCheckBox(false);
   };
   return (
+    
     <section className="signup-page-container">
       <div className="signup-page-background-image">
         <img
