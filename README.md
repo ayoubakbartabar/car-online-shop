@@ -52,7 +52,6 @@ Wanna run this project locally? Follow these simple steps to get started in no t
 ### 📬 **Contact Me:**
 
 If you'd like to reach out, here’s how you can connect with me:
-
 <p align="left">
   <a href="https://www.linkedin.com/in/ayoub-akbartabar-bb78b2212/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="50" height="50" style="display: inline-block;"/>
@@ -61,7 +60,7 @@ If you'd like to reach out, here’s how you can connect with me:
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="50" height="50" style="display: inline-block;"/>
   </a>
   <a href="mailto:ayoubakbartabar1887@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gmail/gmail-original.svg" alt="Email" width="50" height="50" style="display: inline-block;"/>
+    <img src="https://img.icons8.com/ios-filled/50/000000/gmail-new.png" alt="Email" width="50" height="50" style="display: inline-block;"/>
   </a>
 </p>
 
