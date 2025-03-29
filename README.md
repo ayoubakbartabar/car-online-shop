@@ -12,6 +12,10 @@ Feel free to explore the project, and I would love to hear your thoughts and fee
 
 I hope you enjoy your experience with it! 🚀
 
+🌟 **Live Demo**
+
+🔗 [Check it out here](https://space-spa-project.netlify.app/)
+
 ### **Technologies Used:**
 
 - ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
