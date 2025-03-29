@@ -12,22 +12,56 @@ Feel free to explore the project, and I would love to hear your thoughts and fee
 
 I hope you enjoy your experience with it! 🚀
 
+
 🌟 **Live Demo**
 
-🔗 [Check it out here](https://car-yard.netlify.app/)
+🔗 [Check it out here](http://localhost:5173/)
+
 
 ### **Technologies Used:**
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50" height="50" style="display: inline-block;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="NPM" width="50" height="50" style="display: inline-block;"/>
+</p>
 
-- ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-- ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-- ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-- ![NPM](https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
+### 🚀 **Getting Started**
+
+Wanna run this project locally? Follow these simple steps to get started in no time!
+
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/ayoubakbartabar/car-online-shop.git
+   ```
+2. **Navigate to the project directory:**  
+   ```sh
+   cd car-online-shop
+   ```
+3. **Install dependencies:**  
+   ```sh
+   npm install
+   ```
+4. **Run the development server:**  
+   ```sh
+   npm run dev
+   ```
+
 
 ### 📬 **Contact Me:**
 
 If you'd like to reach out, here’s how you can connect with me:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayoub_Akbartabar-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ayoub-akbartabar-bb78b2212/)
-[![GitHub](https://img.shields.io/badge/GitHub-Ayoub_Akbartabar-black?style=for-the-badge&logo=github)](https://github.com/ayoubakbartabar)
-[![Email](https://img.shields.io/badge/Email-ayoubakbartabar%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:ayoubakbartabar1887@gmail.com)
+<p align="left">
+  <a href="https://www.linkedin.com/in/ayoub-akbartabar-bb78b2212/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="50" height="50" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/ayoubakbartabar" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="50" height="50" style="display: inline-block;"/>
+  </a>
+  <a href="mailto:ayoubakbartabar1887@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gmail/gmail-original.svg" alt="Email" width="50" height="50" style="display: inline-block;"/>
+  </a>
+</p>
+
