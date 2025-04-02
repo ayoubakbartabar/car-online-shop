@@ -4,7 +4,7 @@
 
 # Hey there, friend! 👋
 
-Welcome to a cutting-edge project built using modern technologies and design principles. This project is inspired by some of the best e-commerce websites and has been brought to life through my skills and passion for frontend development.
+
 
 With the use of Vite, I’ve ensured high speed and a modern architecture, aiming to deliver an experience that is smooth, responsive, and user-friendly.
 
