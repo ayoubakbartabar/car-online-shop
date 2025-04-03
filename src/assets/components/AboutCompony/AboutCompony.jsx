@@ -7,22 +7,22 @@ export default function AboutCompony() {
     {
       id: 1,
       title: "car service",
-      svg: "public/svg/car-repair-service-icon.svg",
+      svg: "/svg/car-repair-service-icon.svg",
     },
     {
       id: 2,
       title: "car washing",
-      svg: "public/svg/carwash-icon4.svg",
+      svg: "/svg/carwash-icon4.svg",
     },
     {
       id: 3,
       title: "car towing",
-      svg: "public/svg/towed-car-svgrepo-com.svg",
+      svg: "/svg/towed-car-svgrepo-com.svg",
     },
     {
       id: 4,
       title: "maintenance",
-      svg: "public/svg/car-service-icon.svg",
+      svg: "/svg/car-service-icon.svg",
     },
   ];
   return (
