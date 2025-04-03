@@ -54,7 +54,7 @@ export default function SignUpPage() {
     <section className="signup-page-container">
       <div className="signup-page-background-image">
         <img
-          src="public/image/logo.svg"
+          src="/image/logo.svg"
           alt="logo"
           className="signup-page-background-logo"
         />
