@@ -16,7 +16,7 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 .signup-page-background-image {
-  background-image: url(public/image/signup-background.jpg);
+  background-image: url(/image/signup-background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
