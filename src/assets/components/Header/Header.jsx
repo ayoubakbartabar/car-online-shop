@@ -66,7 +66,7 @@ export default function Header() {
             <MdOutlineMenu />
           </button>
 
-          <img className="header-logo" src="public/image/logo.svg" alt="logo" />
+          <img className="header-logo" src="/image/logo.svg" alt="logo" />
 
           <div className="language">
             <button className="persian-style">persian</button>
