@@ -191,6 +191,9 @@
   .login-container {
     display: none;
   }
+  .menu-container{
+    display: none;
+  }
   .hamburger-menu {
     display: flex;
     margin-left: 7rem;
