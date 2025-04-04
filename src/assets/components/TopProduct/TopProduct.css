@@ -108,12 +108,20 @@
 /* ////////////////// */
 @media (max-width: 450px) {
   .top-product-header {
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        gap: 1.5rem;
+        padding: 0 15px;
+    margin-bottom: 2rem;
+  }
+  .top-product-filter-product-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    gap: 1.5rem;
-    padding: 0 15px;
+    justify-content: space-between;
+    gap: 1rem;
   }
 }
 
