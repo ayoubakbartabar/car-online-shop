@@ -15,6 +15,7 @@
   justify-content: center;
   gap: 0.9rem;
   text-transform: capitalize;
+  padding: 0 1rem;
 }
 .signup-title {
   color: var(--base-color);
