@@ -55,3 +55,12 @@
   height: auto;
   max-width: 770px;
 }
+@media screen and (max-width: 410px) {
+.signup-title {
+    font-size: 2rem;
+}
+  .signup-paragraph {
+    font-size: 16px;
+}
+}
+
